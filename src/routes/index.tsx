@@ -10,12 +10,12 @@ export default component$(() => {
   return (
     <>
       <Hero />
-      <Starter />
+      {/* <Starter /> */}
 
       <div role="presentation" class="ellipsis"></div>
-      <div role="presentation" class="ellipsis ellipsis-purple"></div>
+      {/* <div role="presentation" class="ellipsis ellipsis-purple"></div> */}
 
-      <div class="container container-center container-spacing-xl">
+      {/* <div class="container container-center container-spacing-xl">
         <h3>
           You can <span class="highlight">count</span>
           <br /> on me
@@ -96,7 +96,7 @@ export default component$(() => {
             </ul>
           </Infobox>
         </div>
-      </div>
+      </div> */}
     </>
   );
 });
